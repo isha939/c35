@@ -1,0 +1,25 @@
+So, what is a database?
+A database is a collection of information that is organized so that it can be easily accessed, managed and updated.
+
+Cloud storage uses data centers with massive computer servers that physically store the data and make it available online
+to users via the web.
+Users can remotely upload their content, store them and retrieve the data as and when required.
+
+Can you tell me what can we do to update the ball movement?
+Exactly! Now, we could store the ball's position in a common remote database, and our application reads the ball's position from the database and updates it when it changes.
+
+Let's make a remote database for our simple application on the cloud internet.
+This remote database will store the state (positions) of the ball and will allow us to read or write to it at any time.
+We will be using Google Firebase's Real Time Database for this purpose, which allows syncing the Realtime data across all
+the devices without refreshing the screen.
+
+Steps to follow :-
+1) We need to create a database.
+2) Create the database reference on the client side.
+3) Client 1 changes the data in the database.
+4) Client 2 requests for the data.
+5) Client 2 receives the modified data from the database.
+
+
+
+
